@@ -1,5 +1,9 @@
-@url(http://fonts.googleapis.com/css?family=Akronim);
-
+@import url(http://fonts.googleapis.com/css?family=Akronim);
+@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff);
+@import url(http://fonts.googleapis.com/css?family=Artifika);
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Artifika);
 body
 {
 background-color:#34d086;
@@ -7,17 +11,26 @@ background-color:#34d086;
 
 h1
 {
-font-family:Akronim;
+font-family:'Abel',sans-serif;
 text-align:center;
 font-size:75px;
-margin:275px;
+margin:275px 0 0 0;
 }
 p
 {
+font-family:'Abel',sans-serif;
 text-align:center;
 font-size:20px;
-margin:-280px;
+margin:-3px;
 }
 img
 {
+width:35px;
+float:right;
+margin:-425px 0 0 0;
+}
+h3
+{
+font-family:'Artifika',serif;
+font-size:25px;
 }

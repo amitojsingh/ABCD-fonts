@@ -1,9 +1,78 @@
-@import url(http://fonts.googleapis.com/css?family=Akronim);
-@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff);
-@import url(http://fonts.googleapis.com/css?family=Artifika);
-@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
-@import url(http://fonts.googleapis.com/css?family=Abel);
-@import url(http://fonts.googleapis.com/css?family=Artifika);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before
+{
+font-family:'entypo',sans-serif;
+}
+nav 
+{ 
+transform: translate3d(0,-125%,0);
+}
+input[id*="nav"]
+{
+display:none;
+}
+input[id*="nav"] + label
+{
+display:block;
+color:#ffffff;
+width:45px;
+height:45px;
+text-align:center;
+line-height:45px;
+font-size:35px;
+cursor:pointer;
+user-select:none;
+transition:1s;
+z-index:1;
+position:absolute;
+float:right;
+}
+input[id*="nav"]:checked + label 
+{
+color:#34aadc;
+}
+nav
+{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#ffffff;
+z-index:0;
+transition:.6s;
+backface-visibility:hidden;
+}
+nav ul 
+{
+float:left;
+padding-top:70px;
+padding-bottom:20px;
+width:33.3%;
+}
+nav ul h2
+{
+padding:0 0 20px 70px;
+font-size:24px;
+color:#34aadc;
+}
+nav ul li
+{
+padding:4px 20px 4px 70px;
+}
+nav ul li a 
+{
+color:#fff;
+text-decoration:none;
+font-size:14px;
+transition:.2s;
+}
+nav ul a:hover
+{
+color:#34aadc;
+}
+
 body
 {
 background-color:#34d086;
@@ -11,7 +80,7 @@ background-color:#34d086;
 
 h1
 {
-font-family:'Abel',sans-serif;
+font-family:'Dosis',sans-serif;
 text-align:center;
 font-size:75px;
 margin:275px 0 0 0;

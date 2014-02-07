@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-.menu
-{
-float:right;
-}
 [class*="entypo-"]:before
 {
 font-family:'entypo',sans-serif;
@@ -33,6 +29,7 @@ transition:1s;
 z-index:1;
 position:absolute;
 top:10px;
+left:95%;
 }
 
 input[id*="nav"]:checked + label 
@@ -52,10 +49,14 @@ z-index:0;
 transition:.6s;
 backface-visibility:hidden;
 }
+input[id*="nav"]:checked ~ nav
+{
+transform:translate3d(0,0,0);
+}
 
 nav ul 
 {
-/*float:left;*/
+float:left;
 padding-top:70px;
 padding-bottom:20px;
 width:33.3%;
@@ -79,26 +80,29 @@ nav ul a:hover
 color:#34aadc;
 }
 
-#nav,.entypo-menu
-{
-float:right;
-}
 body
 {
-background-color:#34d086;  
--webkit-background-size: cover;
+/*background-color:#34d086;  
+webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+background:none repeat scroll 0% 0% #34d086;
 }
-.content
+/*
+#content
 {
-position:relative;
+position:absolute;
+z-index:777;
+top:100%
+left:0px
 width:100%;
-height:100%;
-background:scroll;
-box-shadow:0px 0px 20px white;
-}
+min-height:100%;
+overflow:hidden;
+background-color:#fff;
+/*ackground:none repeat scroll 0% 0% white;
+-moz-box-sizing:border-box;
+}*/
 h1
 {
 font-family:'Dosis',sans-serif;

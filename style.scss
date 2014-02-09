@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Allan);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+/* Style for header */
+
+header{
+	  position: relative;
+	  background-color: #fff;
+	top:-10px;
+}
+header ul.nav{
+  	overflow: hidden;
+}
+header ul.nav li{
+  	position: relative;
+	  float: left;
+	  width: 20%;
+}
+header ul.nav li a{
+  	display: block;
+	  height: 0px;
+  opacity: 0;
+  font: 400 1.15em 'Allan', serif;
+	  line-height: 50px;
+	  color: #848e92;
+  text-decoration: none;
+	  text-align: center;
+  	cursor: default;
+	  -webkit-transition: all 0.25s ease;
+  	-moz-transition: all 0.25s ease;
+  &:hover{
+    color: #fff;
+    	background-color: #3498db;
+  }
+}
+
+@media screen and (max-width: 600px){
+  	header ul.nav li{
+		    float: right;
+    		width: 100%;
+  	}
+	  header ul.nav li a{
+		    height: 0;
+  	}
+}
+
+/* Style for header with active class name */
+
+header.active ul.nav li a{
+	  height: 120px;
+  	opacity: 1;
+	  line-height: 120px;
+	  cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+  	header.active ul.nav li a{
+		    height: 60px;
+		    line-height: 60px;
+    border-bottom: 1px solid #222b2f;
+	  }
+}
+
+/* Style for the plus button */
+
+button.toggle-nav{
+  	position: absolute;
+  top: 0px;
+  	right:6px;
+  	width: 60px;
+	  height: 50px;
+  	background-color: #3498db;
+  font: 400 1.2em 'Allan', serif;
+  	color: #fff;
+  border: none;
+  	line-height: 30px;
+  	vertical-align: middle;
+	  outline: none;
+  cursor: pointer;
+  	border-bottom-left-radius: 10px;
+	  border-bottom-right-radius: 10px;
+	  -webkit-transition: all 0.25s ease;
+	  -moz-transition: all 0.25s ease;
+	position:fixed;
+}
+button.toggle-nav:hover{
+  	height: 75px;
+}
+img
+{
+margin:2px;
+width:35px;
+float:right;
+}
+button.toggle-nav span{
+	  display: block;
+  	-webkit-transform: rotate(0deg);
+  	-moz-transform: rotate(0deg);
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+}
+
+/* Style for the button when header has active classe name */
+
+header.active button.toggle-nav{
+  	top: 120px;
+  background-color: #256f6f;
+}
+header.active button.toggle-nav span{
+	  -webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+}
+
+header.active button.toggle-nav span img{
+margin:-9px 4px -9px -9px;
+}
+@media screen and (max-width: 600px){
+	  button.toggle-nav{
+		    top: 0;
+		    left: 15px;
+	  }
+  	header.active button.toggle-nav{
+    		top: 305px;
+	  }
+}
+.loud{
+text-transform:uppercase;
+}

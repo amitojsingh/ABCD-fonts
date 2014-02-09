@@ -1,85 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-[class*="entypo-"]:before
-{
-font-family:'entypo',sans-serif;
-}
-nav 
-{ 
-transform: translate3d(0,-125%,0);
-}
-
-input[id*="nav"]
-{
-display:none;
-}
-
-input[id*="nav"] + label
-{
-display:block;
-color:#ffffff;
-width:45px;
-height:45px;
-text-align:center;
-line-height:45px;
-font-size:35px;
-cursor:pointer;
-user-select:none;
-transition:1s;
-z-index:1;
-position:absolute;
-top:10px;
-left:95%;
-}
-
-input[id*="nav"]:checked + label 
-{
-color:#34aadc;
-}
-
-nav
-{
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:#ffffff;
-z-index:0;
-transition:.6s;
-backface-visibility:hidden;
-}
-input[id*="nav"]:checked ~ nav
-{
-transform:translate3d(0,0,0);
-}
-
-nav ul 
-{
-float:left;
-padding-top:70px;
-padding-bottom:20px;
-width:33.3%;
-}
-
-nav ul li
-{
-padding:4px 20px 4px 70px;
-}
-
-nav ul li a 
-{
-color:#fff;
-text-decoration:none;
-font-size:14px;
-transition:.2s;
-}
-
-nav ul a:hover
-{
-color:#34aadc;
-}
-
 body
 {
 /*background-color:#34d086;  
@@ -87,9 +6,10 @@ webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-background:none repeat scroll 0% 0% #34d086;
+margin:none;
+background-color:#34d086;
 }
-/*
+
 #content
 {
 position:absolute;
@@ -100,9 +20,9 @@ width:100%;
 min-height:100%;
 overflow:hidden;
 background-color:#fff;
-/*ackground:none repeat scroll 0% 0% white;
+background:none repeat scroll 0% 0% white;
 -moz-box-sizing:border-box;
-}*/
+}
 h1
 {
 font-family:'Dosis',sans-serif;
@@ -123,8 +43,11 @@ width:35px;
 float:right;
 margin:-425px 0 0 0;
 }
-h3
+a
 {
 font-family:'Artifika',serif;
 font-size:25px;
+color:#fff;
+text-decoration:none;
+
 }

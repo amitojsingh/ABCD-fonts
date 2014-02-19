@@ -9,7 +9,7 @@
       <body>
 	<header>
                   <button class="toggle-nav">
-                            <span><img src="pencil1.png"></span>
+                            <span><img src="images/pencil1.png"></span>
                   </button>
                   <ul class="nav">
                             <li class="loud"><a href="#">About</a></li>

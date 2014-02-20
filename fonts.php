@@ -7,8 +7,14 @@
 sidebar
 </div>
 <div>
-<label for="font1"> helllo</label>
-<label for="font2">hello</label>
+<?php
+include("database/connect.php");
+$lang=mysqli_query($con,"SELECT `language` FROM `Languages`");
+while($l=mysqli_fetch_array($lang))
+{
+echo "<label>".$l."</label>";
+}
+?>
 </div>
 </body>
 </html>

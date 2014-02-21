@@ -1,18 +1,19 @@
 <html>
 <head>
+<title>fontS</title>
 <link rel="stylesheet" type="text/css" href="font_page.css">
+
 </head>
 <body>
-<div id="sidebar">
-sidebar
-</div>
-<div>
+<div id="sidebar">sidebar</div>
+<div id="content">
 <?php
-include("database/connect.php");
-$lang=mysqli_query($con,"SELECT `language` FROM `Languages`");
-while($l=mysqli_fetch_array($lang))
+include"database/connect.php";
+$lang=mysql_query("SELECT *  FROM `Languages`");
+echo "$lang";
+while($l=mysql_fetch_array($lang))
 {
-echo "<label>".$l."</label>";
+echo "<label><span class=lang>".$l['language']."</span></label>";
 }
 ?>
 </div>

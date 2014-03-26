@@ -13,7 +13,7 @@
                   </button>
                   <ul class="nav">
                             <li class="loud"><a href="#">About</a></li>
-                            <li class="loud"><a href="#">fonts</a></li>
+                            <li class="loud"><a href="fonts.php">fonts</a></li>
                             <li class="loud"><a href="#">Submision</a></li>
                             <li class="loud"><a href="#">Blog</a></li>
                             <li class="loud"><a href="#">Contact</a></li>

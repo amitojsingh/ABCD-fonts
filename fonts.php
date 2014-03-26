@@ -16,6 +16,8 @@ while($l=mysql_fetch_array($lang))
 echo "<label><span class=lang>".$l['language']."</span></label>";
 }
 ?>
+<h2>fonts for testting</h2>
+<h1>fonts with h1 tag</h1>
 </div>
 </body>
 </html>

@@ -1,0 +1,7 @@
+@font-face
+{
+font-family:SofadiOne;
+src:url(../fonts/sofadione/SofadiOne-Regular.ttf) format("truetype"),
+    url(../fonts/sofadione/SofadiOne-Regular.woff) format("woff"),
+    url(../fonts/sofadione/SofadiOne-Regular.svg) format("svg")
+}

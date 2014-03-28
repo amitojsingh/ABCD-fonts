@@ -3,5 +3,6 @@
 font-family:SofadiOne;
 src:url(../fonts/sofadione/SofadiOne-Regular.ttf) format("truetype"),
     url(../fonts/sofadione/SofadiOne-Regular.woff) format("woff"),
-    url(../fonts/sofadione/SofadiOne-Regular.svg) format("svg")
+    url(../fonts/sofadione/SofadiOne-Regular.svg) format("svg");
+font-style:italic;
 }

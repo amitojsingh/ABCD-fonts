@@ -5,15 +5,15 @@
 
 </head>
 <body>
-<div id="sidebar">sidebar</div>
+<div class="sidebar">sidebar</div>
 <div id="content">
 <?php
 include"database/connect.php";
 $lang=mysql_query("SELECT *  FROM `Languages`");
-echo "$lang";
+//echo "$lang";
 while($l=mysql_fetch_array($lang))
 {
-echo "<label><span class=lang>".$l['language']."</span></label>";
+echo "<a href='#'><label style= font-family:".$l['font-family']."><span class=lang>".$l['language']."</span></label></a>";
 }
 ?>
 <h2>fonts for testting</h2>

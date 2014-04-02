@@ -1,32 +1,21 @@
 <HTML>
   <Head>
     <title>Home</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.scss">
+ <link rel="stylesheet" type="text/css" href="style.css">
   </head>
       <body>
-	<header>
-                  <button class="toggle-nav">
-                            <span><img src="images/pencil1.png"></span>
-                  </button>
-                  <ul class="nav">
-                            <li class="loud"><a href="#">About</a></li>
-                            <li class="loud"><a href="fonts.php">fonts</a></li>
-                            <li class="loud"><a href="#">Submision</a></li>
-                            <li class="loud"><a href="#">Blog</a></li>
-                            <li class="loud"><a href="#">Contact</a></li>
+                  <ul id="nav">
+                            <li class ="font"><a href="#">About</a></li>
+                            <li><a href="fonts.php">Fonts</a></li>
+                            <li class="font"><a href="#">Submision</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li class="font"><a href="contact_form.html">Contact</a></li>
                   </ul>
-        </header>
 
          <h1>ABCD Fonts</h1>
           <p>Any Body Can Download</p>
-	  <a href="fonts.php">f</a>
 	
-	<div id="content">
-hello
-
+	<div class="content">
 	</div>
     </body> 
 </HTML>

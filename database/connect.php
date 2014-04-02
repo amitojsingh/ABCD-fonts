@@ -1,5 +1,5 @@
 <?php
-$con=mysql_connect("localhost","root","lab4");
+$con=mysql_connect("localhost","root","gurparsad");
 echo $con;
 if (!$con)
 {

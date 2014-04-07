@@ -1,0 +1,9 @@
+@font-face
+{
+font-family:Prabhki;
+src:url(../fonts/prabhki/Prabhki.ttf) format("truetype"),
+    url(../fonts/prabhki/Prabhki.woff) format("woff"),
+    url(../fonts/prabhki/Prabhki.svg) format("svg"),
+    url(../fonts/prabhki/Prabhki.eot) format("embedded-opentype");
+}
+

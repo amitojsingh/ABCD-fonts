@@ -5,7 +5,16 @@
 
 </head>
 <body>
-<div class="sidebar">sidebar</div>
+<div id=menu>
+ <ul id="nav">
+                            <li class ="font"><a href="#">About</a></li>
+                            <li><a href="fonts.php">Fonts</a></li>
+                            <li class="font"><a href="#">Submision</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li class="font"><a href="contact_form.html">Contact</a></li>
+                  </ul>
+</div>
+
 <div id="content">
 <?php
 include"database/connect.php";

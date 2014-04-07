@@ -1,4 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url('fonts/css/sofadiOne.css');
+@import url('fonts/css/prabhki.css');
+@import url('fonts/css/URW.css');
 body
 {
 background: url(images/pencil-free-605557.jpg) no-repeat center center fixed; 
@@ -15,12 +17,25 @@ margin:25% auto;
 width:100%;
 height:600px;
 }
+.heading
+{
+text-align:center;
+}
 h1
 {
-font-family:'Dosis',sans-serif;
+font-family:'URW';
 text-align:center;
-font-size:75px;
-margin:100px 0 0 0;
+font-size:50px;
+display:inline-block;
+font-weight:normal;
+}
+h1.b
+{
+font-family:'Prabhki';
+}
+h1.d
+{
+font-family:'Prabhki';
 }
 p
 {
@@ -68,6 +83,21 @@ width:100px;
 {
 color:#fff;
 }
+#nav.scrolled {
+  margin: 0;
+  position: fixed;
+  top: 0;
+}
+
+#nav.scrolled ul li {
+  margin: 0;
+}
+
+/*ul#css3menu1 ul#nav{
+        max-height: 135px;
+        overflow-y: auto;
+        overflow-x: hidden;
+}
 /********************************************************/
 .font
 {
@@ -75,5 +105,4 @@ padding:1px 25px;
 }
 .blog
 {
-padding:1px 25px;
-}
+padding:1px 25px;}
